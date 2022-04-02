@@ -1,4 +1,4 @@
-/*Products*/
+/* Star Wars */
 .star-wars-products{
     display: flex;
     flex-flow: row wrap;
@@ -27,34 +27,63 @@
     text-decoration: none;
     transition: 1s all;
 }
-.products-item{
+
+/* Consoles */
+.consoles-products{
     display: flex;
-	flex-direction: column;
-	gap: 5px;
-	width: 156px;
-	margin-bottom: 15px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 80%;
 }
-.products-img{
-    height: 174px;
-	width: 156px;
-	object-fit: cover;
+.consoles-products-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-basis: 100%;
 }
-.products-name{
-    font-weight: 500;
-	font-size: 14px;
-	color: #464646;
+.consoles-title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 4rem;
 }
-.products-price{
-    color: #464646;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 19px;
-}
-.products-details{
-    color: #2a7ae4;
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 16px;
-	cursor: pointer;
+.consoles-link{
+    color: #2A7AE4;
+    font-size: 1rem;
+    font-weight: 700;
     text-decoration: none;
+    transition: 1s all;
+}
+
+/* Diverse */
+.diverse-products{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 80%;
+}
+.diverse-products-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-basis: 100%;
+}
+.diverse-title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 4rem;
+}
+.diverse-link{
+    color: #2A7AE4;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 1s all;
 }

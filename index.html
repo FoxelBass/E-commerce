@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"/>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="./img/icon-white.png" type="image/x-icon" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
@@ -11,45 +17,171 @@
     <link rel="stylesheet" href="search.css">
     <link rel="stylesheet" href="banner.css">
     <link rel="stylesheet" href="products.css">
-    <link rel="shortcut icon" href="./img/icon-white.png" type="image/x-icon" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"/>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>
-    <title>E-commerce</title>
+    <link rel="stylesheet" href="cards.css">
+    <title>AluraGeeK E-Commerce</title>
   </head>
   <body>
     <header>
       <nav>
+
+        <!--LOGO--> 
         <div class="logo">
           <img src="./img/icon-AluraGeeK.png" alt="logo icon" />
         </div>
+
+        <!--SEARCH BAR--> 
         <div class="search">
             <input class="search-input" type="text" placeholder="¿Qué deseas buscar?" name="search" />
             <i class="bi bi-search"></i>
         </div>
+
+        <!--LOGIN--> 
           <a class="btn-login-link" href="login.html">Login</a>  
       </nav>
     </header>
     <main>
+
+      <!--BANNER SECTION--> 
       <section class="banner">
         <h2 class="title-1">Abril Promocional</h2>
         <h4 class="title-2">Productos seleccionados con 33% de descuento</h4>
         <a class="btn-banner" href="enconstruccion.html" target="_blank" alt="Ver Consolas">Ver Consolas</a>
       </section>
+
+     <!--STAR WARS SECTION--> 
       <section class="star-wars-products">
         <div class="star-wars-products-title">
             <h2 class="star-wars-title">Star Wars</h2>
             <a class="star-wars-link" href="enconstruccion.html" target="_blank" alt="Ver Todo">Ver Todo <i class="bi bi-arrow-right"></i></a>
         </div>
-        <div class="products-item">
-          <img src="./img/starwars1.png" alt="product image" class="products-img"/>
-          <h5 class="products-name">Producto XYZ</h5>
-          <h4 class="products-price">$ 60,00</h4>
-          <a href="detail.html" class="products-details">Ver producto</a>
+        <div class="cards-item">
+          <img src="./img/starwars1.png" alt="product image" class="cards-img"/>
+          <h5 class="cards-name">Producto XYZ</h5>
+          <h4 class="cards-price">$ 60,00</h4>
+          <a href="detail.html" class="cards-details">Ver producto</a>
         </div>
+        <div class="cards-item">
+          <img src="./img/starwars2.png" alt="product image" class="cards-img"/>
+          <h5 class="cards-name">Producto XYZ</h5>
+          <h4 class="cards-price">$ 60,00</h4>
+          <a href="detail.html" class="cards-details">Ver producto</a>
+        </div>
+        <div class="cards-item">
+          <img src="./img/starwars3.png" alt="product image" class="cards-img"/>
+          <h5 class="cards-name">Producto XYZ</h5>
+          <h4 class="cards-price">$ 60,00</h4>
+          <a href="detail.html" class="cards-details">Ver producto</a>
+        </div>
+        <div class="cards-item">
+          <img src="./img/starwars4.png" alt="product image" class="cards-img"/>
+          <h5 class="cards-name">Producto XYZ</h5>
+          <h4 class="cards-price">$ 60,00</h4>
+          <a href="detail.html" class="cards-details">Ver producto</a>
+        </div>
+        <div class="cards-item">
+          <img src="./img/starwars5.png" alt="product image" class="cards-img"/>
+          <h5 class="cards-name">Producto XYZ</h5>
+          <h4 class="cards-price">$ 60,00</h4>
+          <a href="detail.html" class="cards-details">Ver producto</a>
+        </div>
+        <div class="cards-item">
+          <img src="./img/starwars6.png" alt="product image" class="cards-img"/>
+          <h5 class="cards-name">Producto XYZ</h5>
+          <h4 class="cards-price">$ 60,00</h4>
+          <a href="detail.html" class="cards-details">Ver producto</a>
+        </div>
+      </section>
+
+        <!--CONSOLES SECTION--> 
+      <section class="consoles-products">
+        <div class="consoles-products-title">
+            <h2 class="consoles-title">Consolas</h2>
+            <a class="consoles-link" href="enconstruccion.html" target="_blank" alt="Ver Todo">Ver Todo <i class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="cards-item">
+          <img src="./img/consolas1.png" alt="product image" class="cards-img"/>
+          <h5 class="cards-name">Producto XYZ</h5>
+          <h4 class="cards-price">$ 60,00</h4>
+          <a href="detail.html" class="cards-details">Ver producto</a>
+        </div>
+        <div class="cards-item">
+          <img src="./img/consolas2.png" alt="product image" class="cards-img"/>
+          <h5 class="cards-name">Producto XYZ</h5>
+          <h4 class="cards-price">$ 60,00</h4>
+          <a href="detail.html" class="cards-details">Ver producto</a>
+        </div>
+        <div class="cards-item">
+          <img src="./img/consolas3.png" alt="product image" class="cards-img"/>
+          <h5 class="cards-name">Producto XYZ</h5>
+          <h4 class="cards-price">$ 60,00</h4>
+          <a href="detail.html" class="cards-details">Ver producto</a>
+        </div>
+        <div class="cards-item">
+          <img src="./img/consolas4.png" alt="product image" class="cards-img"/>
+          <h5 class="cards-name">Producto XYZ</h5>
+          <h4 class="cards-price">$ 60,00</h4>
+          <a href="detail.html" class="cards-details">Ver producto</a>
+        </div>
+        <div class="cards-item">
+          <img src="./img/consolas5.png" alt="product image" class="cards-img"/>
+          <h5 class="cards-name">Producto XYZ</h5>
+          <h4 class="cards-price">$ 60,00</h4>
+          <a href="detail.html" class="cards-details">Ver producto</a>
+        </div>
+        <div class="cards-item">
+          <img src="./img/consolas6.png" alt="product image" class="cards-img"/>
+          <h5 class="cards-name">Producto XYZ</h5>
+          <h4 class="cards-price">$ 60,00</h4>
+          <a href="detail.html" class="cards-details">Ver producto</a>
+        </div>
+      </section>
+
+      <!--DIVERSE SECTION--> 
+      <section class="diverse-products">
+        <div class="diverse-products-title">
+            <h2 class="diverse-title">Diversos</h2>
+            <a class="diverse-link" href="enconstruccion.html" target="_blank" alt="Ver Todo">Ver Todo <i class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="cards-item">
+          <img src="./img/diversos1.png" alt="product image" class="cards-img"/>
+          <h5 class="cards-name">Producto XYZ</h5>
+          <h4 class="cards-price">$ 60,00</h4>
+          <a href="detail.html" class="cards-details">Ver producto</a>
+        </div>
+        <div class="cards-item">
+          <img src="./img/diversos2.png" alt="product image" class="cards-img"/>
+          <h5 class="cards-name">Producto XYZ</h5>
+          <h4 class="cards-price">$ 60,00</h4>
+          <a href="detail.html" class="cards-details">Ver producto</a>
+        </div>
+        <div class="cards-item">
+          <img src="./img/diversos3.png" alt="product image" class="cards-img"/>
+          <h5 class="cards-name">Producto XYZ</h5>
+          <h4 class="cards-price">$ 60,00</h4>
+          <a href="detail.html" class="cards-details">Ver producto</a>
+        </div>
+        <div class="cards-item">
+          <img src="./img/diversos4.png" alt="product image" class="cards-img"/>
+          <h5 class="cards-name">Producto XYZ</h5>
+          <h4 class="cards-price">$ 60,00</h4>
+          <a href="detail.html" class="cards-details">Ver producto</a>
+        </div>
+        <div class="cards-item">
+          <img src="./img/diversos5.png" alt="product image" class="cards-img"/>
+          <h5 class="cards-name">Producto XYZ</h5>
+          <h4 class="cards-price">$ 60,00</h4>
+          <a href="detail.html" class="cards-details">Ver producto</a>
+        </div>
+        <div class="cards-item">
+          <img src="./img/diversos6.png" alt="product image" class="cards-img"/>
+          <h5 class="cards-name">Producto XYZ</h5>
+          <h4 class="cards-price">$ 60,00</h4>
+          <a href="detail.html" class="cards-details">Ver producto</a>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      
+    </footer>
   </body>
 </html>

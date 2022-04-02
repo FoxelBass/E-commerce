@@ -1,0 +1,32 @@
+/* Cards */
+.cards-item{
+    display: flex;
+	flex-direction: column;
+	gap: 5px;
+	width: 156px;
+	margin-bottom: 15px;
+}
+.cards-img{
+    height: 174px;
+	width: 156px;
+	object-fit: cover;
+}
+.cards-name{
+    font-weight: 500;
+	font-size: 14px;
+	color: #464646;
+}
+.cards-price{
+    color: #464646;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+}
+.cards-details{
+    color: #2a7ae4;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	cursor: pointer;
+    text-decoration: none;
+}
