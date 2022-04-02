@@ -1,0 +1,60 @@
+/*Products*/
+.star-wars-products{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 80%;
+}
+.star-wars-products-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-basis: 100%;
+}
+.star-wars-title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 4rem;
+}
+.star-wars-link{
+    color: #2A7AE4;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 1s all;
+}
+.products-item{
+    display: flex;
+	flex-direction: column;
+	gap: 5px;
+	width: 156px;
+	margin-bottom: 15px;
+}
+.products-img{
+    height: 174px;
+	width: 156px;
+	object-fit: cover;
+}
+.products-name{
+    font-weight: 500;
+	font-size: 14px;
+	color: #464646;
+}
+.products-price{
+    color: #464646;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+}
+.products-details{
+    color: #2a7ae4;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	cursor: pointer;
+    text-decoration: none;
+}
