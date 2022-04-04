@@ -57,4 +57,6 @@
 .btn-banner:hover{
     color: #2A7AE4;
 	background: #ffffff;
+    transform: scale(1.1);
+	transition: all 0.7s;
 }

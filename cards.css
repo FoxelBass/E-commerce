@@ -2,7 +2,7 @@
 .cards-item{
     display: flex;
 	flex-direction: column;
-	gap: 5px;
+	gap: 10px;
 	width: 156px;
 	margin-bottom: 15px;
 }
@@ -10,6 +10,10 @@
     height: 174px;
 	width: 156px;
 	object-fit: cover;
+}
+.cards-img:hover{
+	transform: scale(1.1);
+	transition: all 0.7s;
 }
 .cards-name{
     font-weight: 500;
@@ -29,4 +33,7 @@
 	line-height: 16px;
 	cursor: pointer;
     text-decoration: none;
+}
+.cards-details:hover{
+	transform: scale(1.1);
 }

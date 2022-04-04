@@ -13,4 +13,6 @@
 .btn-login-link:hover{
     color: #fff;
 	background: #2a7ae4;
+    transform: scale(1.1);
+	transition: all 0.7s;
 }
