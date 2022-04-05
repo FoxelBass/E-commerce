@@ -1,3 +1,3 @@
 # Desafio-Oracle-Alura-Latam---E-commerce
 
-![png-portfolio.png](https://i.postimg.cc/pXDNbZ40/portfolio.png)
+![jpg-portfolio.jpg](https://i.postimg.cc/j5Lj3Lsk/e-commerce.jpg)
