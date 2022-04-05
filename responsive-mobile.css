@@ -8,16 +8,11 @@
     .header-logo{
       order: 1;
     }
-    .header-logo-img{
-  
-    }
     .search{
       order: 3;
     }
     .search-input{
       display: none;
-    }
-    .bi-search{
     }
     .btn-login-link{
       padding: 8px 16px;
