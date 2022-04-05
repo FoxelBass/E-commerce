@@ -21,11 +21,11 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    padding: 20px 120px;
+    /* padding: 20px 120px; */
     background-color: #ffffff;
 
 }
-header a{
+.header a{
     text-decoration: none;
     font-family: 'Raleway';
     font-style: normal;
@@ -35,7 +35,7 @@ header a{
     color: #2A7AE4;
 }
 /* Logo */
-nav{
+/* nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,7 +43,7 @@ nav{
     margin: 0 auto;
     max-width: 1920px;
     width: 100%;
-}
+} */
 .header-logo-img:hover{
     transform: scale(1.1);
 	transition: all 0.7s;

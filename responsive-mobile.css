@@ -1,0 +1,85 @@
+@media only screen and (max-width: 360px) {
+    .header{
+      display: flex;
+      flex-direction: row;
+      width: 360px;
+      height: 72px;
+    }
+    .header-logo{
+      order: 1;
+    }
+    .header-logo-img{
+  
+    }
+    .search{
+      order: 3;
+    }
+    .search-input{
+      display: none;
+    }
+    .bi-search{
+    }
+    .btn-login-link{
+      padding: 8px 16px;
+        order: 2;
+    }
+    .banner {
+      width: 360px;
+      height: 192px;
+      line-height: 10px;
+    }
+    .title-1{
+      font-size: 22px;
+      margin: inherit;
+      padding-left: 5%;
+      line-height: 1px;
+    }
+    .title-2{
+      font-size: 14px;
+      margin: inherit;
+      padding-left: 5%;
+    }
+    .btn-banner{
+      font-size: 14px;
+      margin-left: 5%;
+      margin-top: 0.5%;
+    }
+    .star-wars-products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 330px;
+        
+    }
+    .consoles-products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 330px;
+    }
+    .diverse-products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 330px;
+    }
+    .cards-img {
+      width: 156px;
+      height: 174px;
+    }
+    .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .info-logo-img{
+      margin: auto;
+    }
+    .contact-form-name{
+        width: 316px;
+    }
+    .contact-form-message{
+        width: 316px;
+    }
+  }
+  
