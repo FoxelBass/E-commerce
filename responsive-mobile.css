@@ -1,22 +1,34 @@
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 359px) {
     .header{
       display: flex;
-      flex-direction: row;
+      align-items: center;
       width: 360px;
       height: 72px;
     }
     .header-logo{
       order: 1;
     }
+    .header-logo-img{
+      width: 120px;
+      margin-left: 18px;
+    }
     .search{
+      background: transparent;
+      border: none;
       order: 3;
     }
     .search-input{
       display: none;
     }
+    .bi-search{
+      background: transparent;
+      zoom: 1.5;
+    }
     .btn-login-link{
-      padding: 8px 16px;
-        order: 2;
+      margin-left: 8px;
+      width: 38px;
+      height: 16px;
+      order: 2;
     }
     .banner {
       width: 360px;
@@ -77,4 +89,96 @@
         width: 316px;
     }
   }
-  
+  @media only screen and (min-width: 360px) and (max-width: 768px){
+    .header{
+      display: flex;
+      align-items: center;
+      width: 768px;
+      height: 72px;
+    }
+    .header-logo-img{
+      width: 110px;
+      margin-left: 34px;
+    }
+    .search{
+     width: 272px;
+     height: 40px;
+     margin-left: 30px;
+    }
+    .search-input{
+      font-size: 14px;
+    }
+    .btn-login-link{
+      margin-right: 34px;
+      width: 38px;
+      height: 16px;
+    }
+    .banner {
+      width: 768px;
+      height: 352px;
+    }
+    .title-1{
+      font-size: 52px;
+      padding-left: 5%;
+    }
+    .title-2{
+      font-size: 22px;
+      margin: inherit;
+      padding-left: 5%;
+    }
+    .btn-banner{
+      font-size: 14px;
+      margin-left: 5%;
+      margin-top: 0.5%;
+    }
+    .star-wars-products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 700px;
+        
+    }
+    .consoles-products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 700px;
+    }
+    .diverse-products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 700px;
+    }
+    .cards-img {
+      width: 164px;
+      height: 174px;
+    }
+    .cards-item:nth-child(6) {
+      display: none;
+    }
+    .cards-item:nth-child(7) {
+    display: none;
+    }
+    .logo-about{
+      display: flex;
+      flex-direction: column;
+      width: 768px;
+      margin-top: 60px;
+    }
+    .info-logo-img{
+      margin-left: 32px;
+    }
+    .about{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 32px;
+    }
+    .contact-form-name{
+      width: 316px;
+    }
+    .contact-form-message{
+      width: 316px;
+    }
+  }
