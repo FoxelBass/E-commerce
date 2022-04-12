@@ -21,7 +21,8 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    /* padding: 20px 120px; */
+    margin: auto;
+    padding: 20px;
     background-color: #ffffff;
 
 }
@@ -34,16 +35,9 @@ header{
     line-height: 19px;
     color: #2A7AE4;
 }
-/* Logo */
-/* nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2.25rem;
-    margin: 0 auto;
-    max-width: 1920px;
-    width: 100%;
-} */
+.header-logo-img{
+    padding-right: 25px;
+}
 .header-logo-img:hover{
     transform: scale(1.1);
 	transition: all 0.7s;
