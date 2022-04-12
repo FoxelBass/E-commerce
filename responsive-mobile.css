@@ -2,17 +2,16 @@
     .header{
       display: flex;
       align-items: center;
-      width: 360px;
-      height: 72px;
+      width: 300px;
     }
     .header-logo{
       order: 1;
     }
     .header-logo-img{
-      width: 120px;
-      margin-left: 18px;
+      width: 100px;
     }
     .search{
+      margin-left: 10px;
       background: transparent;
       border: none;
       order: 3;
@@ -25,7 +24,7 @@
       zoom: 1.5;
     }
     .btn-login-link{
-      margin-left: 8px;
+      padding: 0.7rem 3rem;
       width: 38px;
       height: 16px;
       order: 2;
@@ -53,21 +52,15 @@
     }
     .star-wars-products{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     width: 330px;
         
     }
     .consoles-products{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     width: 330px;
     }
     .diverse-products{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     width: 330px;
     }
     .cards-img {
@@ -89,7 +82,7 @@
         width: 316px;
     }
   }
-  @media only screen and (min-width: 360px) and (max-width: 768px){
+  /* @media only screen and (min-width: 360px) and (max-width: 768px){
     .header{
       display: flex;
       align-items: center;
@@ -181,4 +174,4 @@
     .contact-form-message{
       width: 316px;
     }
-  }
+  } */
