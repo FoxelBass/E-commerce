@@ -1,4 +1,4 @@
-@media only screen and (max-width: 359px) {
+@media only screen and (max-width: 1024px) {
     .header{
       display: flex;
       align-items: center;
@@ -30,7 +30,7 @@
       order: 2;
     }
     .banner {
-      width: 360px;
+      width: 355px;
       height: 192px;
       line-height: 10px;
     }
@@ -70,7 +70,15 @@
     .info{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    }.info-logo{
+      margin-left: 90px;
+    }
+    .logo-about{
+    display: flex;
+    flex-direction: column;
+    }
+    .about{
+    margin-left: 90px;
     }
     .info-logo-img{
       margin: auto;
@@ -80,6 +88,10 @@
     }
     .contact-form-message{
         width: 316px;
+    }
+    .footer-text{
+      font-size: 16px;
+      margin-top: 1%;
     }
   }
   /* @media only screen and (min-width: 360px) and (max-width: 768px){
