@@ -2,15 +2,15 @@
 .login-form{
 	display: flex;
 	flex-direction: column;
-	gap: 90px;
-	width: 90%;
-	margin-left: 33%;
+    align-items: center;
+	margin-left: 2%;
 }
 .login-title {
 	color: #464646;
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 19px;
+    margin-top: 10%;
 }
 .form-control {
     border: 1px solid #e5e5e5;
@@ -21,25 +21,23 @@
 	width: 423px;
 	height: 64px;
 }
-
-.contact-form-name::placeholder {
-	padding-left: 15px;
-	color: #a2a2a2;
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
-
-.contact-form-message::placeholder {
-	color: #a2a2a2;
+.form-control::placeholder {
 	padding-left: 15px;
-	padding-top: 10px;
+	color: #a2a2a2;
 }
 .form-btn {
 	border: solid #2A7AE4 1px;
-	align-self: flex-start;
 	background: #2a7ae4;
 	color: #fff;
 	width: 428px;
 	height: 62px;
-	margin-bottom: 15px;
+    margin-top: 20px;
+	margin-bottom: 20px;
 	transition: all 0.5s;
     font-size: 18px;
     font-weight: 600;
