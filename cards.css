@@ -1,10 +1,6 @@
 /* Cards */
 .cards-item{
-    display: flex;
-	flex-direction: column;
-	gap: 8px;
-	width: 156px;
-	margin-bottom: 15px;
+	margin-bottom: 25px;
 }
 .cards-img{
     height: 174px;

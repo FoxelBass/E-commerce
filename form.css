@@ -27,7 +27,8 @@
 .about{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: inherit;
+	margin-left: 90px;
     gap: 27px;
     width: 50%;
 }

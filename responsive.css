@@ -1,0 +1,194 @@
+@media only screen and (max-width: 360px) {
+    /* Responsive CSS */
+    
+    .header-logo-img{
+      width: 100px;
+    }
+    .search{
+      margin-left: 20px;
+      background: transparent;
+      border: none;
+      order: 3;
+    }
+    .search-input{
+      display: none;
+    }
+    .bi-search{
+      background: transparent;
+      zoom: 1.4;
+    }
+    .btn-login-link{
+      padding: 0.7rem 3rem;
+      width: 38px;
+      height: 16px;
+      order: 2;
+    }
+    .banner {
+      height: 192px;
+      line-height: 10px;
+    }
+    .title-1{
+      font-size: 22px;
+      margin: inherit;
+      padding-left: 5%;
+      line-height: 1px;
+    }
+    .title-2{
+      font-size: 14px;
+      margin: inherit;
+      padding-left: 5%;
+    }
+    .btn-banner{
+      font-size: 14px;
+      margin-left: 5%;
+      margin-top: 0.5%;
+    }
+    .star-wars-products{
+      display: flex;
+      width: 330px; 
+    }
+    .consoles-products{
+      display: flex;
+      width: 330px;
+    }
+    .diverse-products{
+      display: flex;
+      width: 330px;
+    }
+    .info{
+      display: flex;
+      flex-direction: column;
+    }
+    .info-logo{
+      margin-left: 20px;
+    }
+    .logo-about{
+      display: flex;
+      flex-direction: column;
+    }
+    .about{
+      margin-left: 90px;
+    }
+    .contact-form-name{
+      width: 316px;
+    }
+    .contact-form-message{
+      width: 316px;
+    }
+    .footer-text{
+      font-size: 16px;
+      margin-top: 1%;
+    }
+  }
+  @media only screen and (min-width: 361px) and (max-width: 768px) {
+    /* Responsive CSS */
+    
+    .header{
+      width: 768px;
+    }
+    .header-logo-img{
+      width: 110px;
+      margin-left: 20px;
+    }
+    .search{
+      width: 270px;
+      height: 40px;
+      margin-left: 15px;
+    }
+    .btn-login-link{
+      margin-right: 80px;
+    }
+    .banner {
+      height: 192px;
+      line-height: 10px;
+    }
+    .title-1{
+      font-size: 22px;
+      margin: inherit;
+      padding-left: 5%;
+      line-height: 1px;
+    }
+    .title-2{
+      font-size: 14px;
+      margin: inherit;
+      padding-left: 5%;
+    }
+    .btn-banner{
+      font-size: 14px;
+      margin-left: 5%;
+      margin-top: 0.5%;
+    }
+    .star-wars-title{
+      font-size: 22px;
+      margin-left: 6%;
+    }
+    .star-wars-link{
+      font-size: 16px;
+      margin-right: 6%;
+    }
+    .star-wars-products{
+      display: flex;
+      width: 768px; 
+      justify-content: center;
+    }
+    .consoles-title{
+      font-size: 22px;
+      margin-left: 6%;
+    }
+    .consoles-link{
+      font-size: 16px;
+      margin-right: 6%;
+    }
+    .consoles-products{
+      display: flex;
+      width: 768px;
+      justify-content: center;
+    }
+    .diverse-title{
+      font-size: 22px;
+      margin-left: 6%;
+    }
+    .diverse-link{
+      font-size: 16px;
+      margin-right: 6%;
+    }
+    .diverse-products{
+      display: flex;
+      width: 768px;
+      justify-content: center;
+    }
+    .cards-item:nth-child(6){
+      display: none;
+    }
+    .cards-item:nth-child(7){
+      display: none;
+    }
+    .info{
+      display: flex;
+      width: 768px;
+    }
+    .info-logo-img{
+      margin-left: 30px;
+    }
+    .logo-about{
+      display: flex;
+      flex-direction: column;
+    }
+    .about{
+      margin-left: 30px;
+      align-items: inherit;
+    }
+    .contact{
+      margin-top: 30px;
+    }
+    .contact-form-name{
+      width: 316px;
+    }
+    .contact-form-message{
+      width: 316px;
+    }
+    .footer-text{
+      font-size: 16px;
+      margin-top: 1%;
+    }
+  }
