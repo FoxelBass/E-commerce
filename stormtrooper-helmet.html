@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"/>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="./img/icon-white.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>AluraGeeK E-Commerce</title>
+  </head>
+  <body>
+    <header class="header">
+
+
+        <!--LOGO--> 
+        <div class="header-logo">
+            <a href="index.html">
+            <img class="header-logo-img" src="./img/icon-AluraGeeK.png" alt="alura geek logo" /></a>
+          </div>
+
+        <!--SEARCH BAR--> 
+        <div class="search">
+            <input class="search-input" type="text" placeholder="¿Qué deseas buscar?" name="search" />
+            <i class="bi bi-search"></i>
+        </div>
+
+        <!--*LOGIN--> 
+          <a class="btn-login-link" href="login.html">Login</a>  
+
+    </header>
+    <main>
+        <section class="product">
+            <div class="product-container">
+                <div class="product-item">
+                    <img src="./img/starwars1_1.png" alt="" class="product-img">
+                </div>
+                    <div class="product-info">
+                        <h2 class="product-item-title"></h2>
+                            <h4 class="cards-price"></h4>
+                                <p class="product-item-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took 
+                                    a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
+                                    but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                    </div>
+            </div>
+        </section>
+        <section class="similar-products">
+            <h2 class="similar-products-title">Productos Similares</h2>
+                <div class="cards-item">
+                    <img class="cards-img" src="./img/consolas1.png" alt="">
+                        <h5 class="cards-name">Storm Troper Helmet</h5>
+                            <h4 class="cards-price">$500</h4>
+                            <a class="cards-details" href="" ></a>
+                    </img>
+                </div>
+                <div class="cards-item">
+                  <img class="cards-img" src="./img/starwars2.png" alt="">
+                      <h5 class="cards-name"></h5>
+                          <h4 class="cards-price"></h4>
+                          <a class="cards-details" href="" ></a>
+                  </img>
+              </div>
+              <div class="cards-item">
+                <img class="cards-img" src="./img/starwars3.png" alt="">
+                    <h5 class="cards-name"></h5>
+                        <h4 class="cards-price"></h4>
+                        <a class="cards-details" href="" ></a>
+                </img>
+            </div>
+            <div class="cards-item">
+              <img class="cards-img" src="./img/starwars4.png" alt="">
+                  <h5 class="cards-name"></h5>
+                      <h4 class="cards-price"></h4>
+                      <a class="cards-details" href="" ></a>
+              </img>
+          </div>
+          <div class="cards-item">
+            <img class="cards-img" src="./img/starwars5.png" alt="./img">
+                <h5 class="cards-name"></h5>
+                    <h4 class="cards-price"></h4>
+                    <a class="cards-details" href="" ></a>
+            </img>
+        </div>
+        <div class="cards-item">
+          <img class="cards-img" src="./img/starwars6.png" alt="">
+              <h5 class="cards-name"></h5>
+                  <h4 class="cards-price"></h4>
+                  <a class="cards-details" href="" ></a>
+          </img>
+      </div>
+        </section>
+            <!--!FORM-->
+    <section class="info">
+        <div class="logo-about">
+          <div class="info-logo">
+            <img class="info-logo-img" src="./img/icon-AluraGeeK.png" alt="alura geek logo" />
+          </div>
+          <div class="about">
+            <a class="about-link" href="#" >Quienes somos</a>
+            <a class="about-link" href="#" >Politica de privacidad</a>
+            <a class="about-link" href="#" >Programa de fidelidad</a>
+            <a class="about-link" href="#" >Nuestras tiendas</a>
+            <a class="about-link" href="#" >Quiero ser franquiciado</a>
+            <a class="about-link" href="#" >Anuncie aqui</a>
+          </div>
+        </div>   
+        <div class="contact">
+          <h2 class="contact-title">Hable con nosotros</h2>
+          <form action="registro.php" class="contact-form" method="POST">
+            <input class="contact-form-name" type="text" name="Nombre" placeholder="Ingrese su nombre" required/>
+            <textarea class="contact-form-message" name="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje" required></textarea>
+            <input class="contact-form-btn" type="submit" value="Enviar Mensaje" />
+          </form>
+        </div>
+      </section> 
+    </main>
+    <footer>
+      <h2 class="footer-text">Desarrollado por David Duartez 2022</h2>
+    </footer>
+    </body>
+</html>
