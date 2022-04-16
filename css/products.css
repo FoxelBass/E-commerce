@@ -1,0 +1,17 @@
+.add-btn{
+    border: solid #2A7AE4 1px;
+	background: #2a7ae4;
+	color: #fff;
+	width: 144px;
+	height: 51px;
+	margin-bottom: 15px;
+	transition: all 0.5s;
+}
+.add-btn:hover{
+    background: #fff;
+	color: #2a7ae4;
+	cursor: pointer;
+	border: 1px solid #2a7ae4;
+	transform: scale(1.1);
+	transition: all 0.7s;
+}
