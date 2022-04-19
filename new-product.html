@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/new-product.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/responsive.css">
     <title>AluraGeeK E-Commerce</title>
@@ -40,24 +41,33 @@
 
     </header>
     <main>
-        <section class="new-product-container">
-          <div class="new-product-title">
-            <h1 class="product-title">Agregar nuevo producto</h1>
-          </div>
-          <div class="new-product-drag">
-            <img class="new-product-img" src="" alt="">
-            <input type="submit" class="new-product-btn" value="Busque en su computador">
-          </div>
-            <div class="new-product-form">
-                <form action="registro.php" method="POST">
-                    <div class="form-group">
-                        <label for="email"></label>
-                        <input type="email" name="email" id="email" class="form-control" placeholder="Escriba su correo electrónico" required>
-                        <label for="password"></label>
-                        <input type="password" name="password" id="password" class="form-control" placeholder="Escriba su contraseña" required>
-                    </div>
-                    <input class="form-btn" type="submit" value="Agregar producto" />
-                </form>
+        <section class="new-product">
+            <div class="new-product-container">
+              <div class="new-product-title">
+                <h1 class="product-title">Agregar nuevo producto</h1>
+            </div>
+            <div class="new-product-drag">
+              <div class="new-product-box">
+                <div class="new-product-box-img">
+                  <img class="" src="img/new-product-img.png" alt="">
+                </div> 
+                <p class="new-product-box-title">Arrastra y suelta para agregar una imagen. <br> JPEG, JPG, PNG</p>
+              </div>
+              <span style="margin-top: 90px;">Ó</span>
+              <button class="new-product-btn" type="button"  value="Busque en su computador">Busque en su computador</button>
+              <input type="file" hidden />
+            </div>
+            <form action="registro.php" method="POST">
+              <div class="new-product-form-group">
+                  <label for="Nombre del producto"></label>
+                  <input class="new-product-form" type="text" name="Nombre del producto" placeholder="Nombre del producto" required>
+                  <label for="Precio del producto"></label>
+                  <input class="new-product-form" type="text" name="Precio del producto" placeholder="Precio del producto" required>
+                  <label for="Descripción del producto"></label>
+                  <textarea class="new-product-form" type="text" name="Descripción del producto"  cols="30" rows="10" placeholder="Descripción del producto" required></textarea>
+              </div>
+              <input class="new-product-form-btn" type="submit" value="Agregar producto" />
+          </form>
             </div>    
         </section>
     <!--FORM-->
@@ -80,7 +90,7 @@
           <form action="registro.php" class="contact-form" method="POST">
             <input class="contact-form-name" type="text" name="Nombre" placeholder="Ingrese su nombre" required/>
             <textarea class="contact-form-message" name="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje" required></textarea>
-            <input class="contact-form-btn" type="submit" c />
+            <input class="contact-form-btn" type="submit" value="Enviar Mensaje" />
           </form>
         </div>
       </section> 
@@ -88,5 +98,6 @@
     <footer>
       <h2 class="footer-text">Desarrollado por David Duartez 2022</h2>
     </footer>
+    <script src="js/drag&drop.js"></script>
     </body>
 </html>
