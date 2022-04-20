@@ -49,11 +49,13 @@
             <div class="new-product-drag">
               <div class="new-product-box">
                 <div class="new-product-box-img">
-                  <img class="" src="img/new-product-img.png" alt="">
-                </div> 
+                  <img class="new-product-img-mobile" src="img/add_black.png" alt="">
+                  <img class="new-product-img" src="img/new-product-img.png" alt="">
+                </div>
+                <p class="new-product-box-title-mobile">Agregar una imagen. <br> JPEG, JPG, PNG</p> 
                 <p class="new-product-box-title">Arrastra y suelta para agregar una imagen. <br> JPEG, JPG, PNG</p>
               </div>
-              <span style="margin-top: 90px;">Ó</span>
+              <span class="new-product-letter" style="margin-top: 90px;">Ó</span>
               <button class="new-product-btn" type="button"  value="Busque en su computador">Busque en su computador</button>
               <input type="file" hidden />
             </div>
@@ -87,7 +89,7 @@
         </div>   
         <div class="contact">
           <h2 class="contact-title">Hable con nosotros</h2>
-          <form action="registro.php" class="contact-form" method="POST">
+          <form action="registro.php" class="contact-form" >
             <input class="contact-form-name" type="text" name="Nombre" placeholder="Ingrese su nombre" required/>
             <textarea class="contact-form-message" name="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje" required></textarea>
             <input class="contact-form-btn" type="submit" value="Enviar Mensaje" />

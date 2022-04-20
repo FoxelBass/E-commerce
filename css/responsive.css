@@ -222,3 +222,94 @@
 		width: 728px;
 	}
 }
+
+/* !Responsive CSS NEW-PRODUCTS*/
+@media only screen and (max-width: 360px) {
+	.product-title {
+		font-size: 22px;
+	}
+	.new-product-btn {
+		display: none;
+	}
+	.new-product-letter{
+		display: none;
+	}
+	.new-product-img{
+		display: none;
+	}
+	.new-product-img-mobile{
+		display: block;
+	}
+	.new-product-box-title{
+		display: none;
+	}
+	.new-product-box-title-mobile{
+		display: block;
+	}
+	.new-product-form{
+		width: 328px;
+	}
+	.new-product-form-btn{
+		width: 330px;
+	}
+	
+}
+@media only screen and (min-width: 361px) and (max-width: 768px) {
+	.form-control {
+		width: 275px;
+		height: 41px;
+	}
+	.form-btn {
+		width: 109px;
+		height: 40px;
+		margin-left: 85px;
+	}
+	.info {
+		width: 768px;
+	}
+	.header {
+		width: 728px;
+	}
+}
+
+/* !Responsive CSS STORMTROOPER-BOWL*/
+@media only screen and (max-width: 360px) {
+	.product-container {
+		display: flex;
+		flex-direction: column;
+		width: auto;
+		margin-top: 0px;
+	}
+	.product-img{
+		width: 360px;
+		height: auto;
+	}
+	.product-info{
+		width: 328px;
+		margin-left: 10px;
+	}
+	.product-item-title {
+		font-size: 22px;
+	}
+	.product-item-description {
+		font-size: 14px;
+		width: 300px;
+	}
+}
+@media only screen and (min-width: 361px) and (max-width: 768px) {
+	/* .form-control {
+		width: 275px;
+		height: 41px;
+	}
+	.form-btn {
+		width: 109px;
+		height: 40px;
+		margin-left: 85px;
+	}
+	.info {
+		width: 768px;
+	}
+	.header {
+		width: 728px;
+	}
+} */
