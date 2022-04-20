@@ -6,9 +6,7 @@
 
 ![jpg-portfolio.jpg](https://i.postimg.cc/T34GSZM1/screenshot-new-product.jpg)
 
-![jpg-portfolio.jpg](https://i.postimg.cc/wRQmNhxR/index-mobile.jpg)
-
-![jpg-portfolio.jpg](https://i.postimg.cc/zbwhLgLk/screenshot-stormtrooper-mobile.jpg)
+![jpg-portfolio.jpg](https://i.postimg.cc/wRQmNhxR/index-mobile.jpg) ![jpg-portfolio.jpg](https://i.postimg.cc/zbwhLgLk/screenshot-stormtrooper-mobile.jpg)
 
 ![jpg-portfolio.jpg](https://i.postimg.cc/CnFqbxkp/screenshot-login-mobile.jpg)
 
