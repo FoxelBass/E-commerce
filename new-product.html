@@ -61,12 +61,12 @@
             </div>
             <form action="registro.php" method="POST">
               <div class="new-product-form-group">
-                  <label for="Nombre del producto"></label>
-                  <input class="new-product-form" type="text" name="Nombre del producto" placeholder="Nombre del producto" required>
-                  <label for="Precio del producto"></label>
-                  <input class="new-product-form" type="text" name="Precio del producto" placeholder="Precio del producto" required>
-                  <label for="Descripción del producto"></label>
-                  <textarea class="new-product-form" type="text" name="Descripción del producto"  cols="30" rows="10" placeholder="Descripción del producto" required></textarea>
+                  <label for="Nombre del producto">Nombre del producto</label>
+                  <input class="new-product-form" type="text" name="Nombre del producto" maxlength="15" placeholder="Nombre del producto" required>
+                  <label for="Precio del producto">Precio del producto</label>
+                  <input class="new-product-form" type="text" name="Precio del producto" maxlength="10" placeholder="Precio del producto" required>
+                  <label for="Descripción del producto">Descripción del producto</label>
+                  <textarea class="new-product-form" type="text" name="Descripción del producto"  cols="30" rows="10" maxlength="50" placeholder="Descripción del producto" required></textarea>
               </div>
               <input class="new-product-form-btn" type="submit" value="Agregar producto" />
           </form>
